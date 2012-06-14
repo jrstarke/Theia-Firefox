@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+     xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+  
+  
+  <Description about="urn:mozilla:install-manifest">
+    
+    <em:id>theia@github.com</em:id>
+    
+    <em:type>2</em:type>
+    
+    <em:name>Theia</em:name>
+    
+    <em:version>0.1.0</em:version>
+    
+    <!-- You can set the Firefox Update site, and then you can have pull based updates to users -->
+	<!-- <em:updateURL>https://keg.cs.uvic.ca/collector/chisel/firefox-update.php</em:updateURL> -->
+
+
+    <em:creator>Theia Project</em:creator>
+  
+    <em:developer>Thiago Valverde</em:developer>
+    
+    <em:developer>Jamie Starke</em:developer>
+     
+    <em:description>A Tool for collecting Web Navigation activities for research purposes.</em:description>
+    
+   
+    <em:targetApplication>
+      
+      <Description>
+        
+        <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id> <!-- Firefox -->
+        
+        <em:minVersion>3.0</em:minVersion>
+        
+        <em:maxVersion>8.*</em:maxVersion>
+      
+      </Description>
+    
+    </em:targetApplication>
+  
+  </Description>
+
+</RDF>

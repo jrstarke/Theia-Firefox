@@ -1,0 +1,22 @@
+/* This is just an example.  You shouldn't do this. */
+#logger-hello
+{
+  color: red ! important;
+}
+#logger-toolbar-button
+{
+  list-style-image: url("chrome://logger/skin/toolbar-button.png");
+  -moz-image-region: rect(0px 24px 24px 0px);
+}
+#logger-toolbar-button:hover
+{
+  -moz-image-region: rect(24px 24px 48px  0px);
+}
+[iconsize="small"] #logger-toolbar-button
+{
+  -moz-image-region: rect( 0px 40px 16px 24px);
+}
+[iconsize="small"] #logger-toolbar-button:hover
+{
+  -moz-image-region: rect(24px 40px 40px 24px);
+}
